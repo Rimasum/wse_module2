@@ -209,7 +209,7 @@ img {
 }
 .form-content {
   display: flex;
-  padding-top: 20px;
+  padding-top: 10px;
   color: var(--color-text-secondery);
   align-items: center;
 }
@@ -239,7 +239,6 @@ i {
   width: 80%;
   margin: 10px auto;
   padding: 10px 20px;
-  /* background: #f4f7f8; */
   background: var(--color-bg-primary2);
   border-radius: 8px;
 }
