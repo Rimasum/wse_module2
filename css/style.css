@@ -34,7 +34,8 @@ body {
   /* z-index: 5; */
 }
 #all-tags,
-#form-section {
+#form-section,
+#table-section {
   scroll-margin-top: 71px;
   padding-bottom: 20px;
 }
@@ -107,21 +108,20 @@ body {
 .tags p {
   text-align: justify;
 }
-
-.tags-table {
+.tags-table,
+.tags-table table {
   width: 100%;
+}
+
+.tags-table table {
   text-align: left;
 }
-.tags-table,
-th,
-tr,
-td {
+.tags-table table,
+.tags-table th,
+.tags-table tr,
+.tags-table td {
   border: 1px solid var(--color-border1);
   border-collapse: collapse;
-}
-.tags-table th,
-tr,
-td {
   padding: 10px;
 }
 
@@ -305,4 +305,33 @@ label.light {
 #bio {
   resize: none;
   height: 70px;
+}
+
+/* Table Section */
+.table-section {
+  background-color: var(--color-bg-primary2);
+  padding-top: 20px;
+  height: 500px;
+}
+
+.table {
+  padding-top: 20px;
+}
+.table table {
+  width: 100%;
+  text-align: left;
+}
+.table table,
+.table th,
+.table tr,
+.table td {
+  padding: 10px;
+  border: 1px solid var(--color-border1);
+  border-collapse: collapse;
+  /* background-color: #0f9d58; */
+}
+
+.table th {
+  background-color: var(--color-bg-primary);
+  color: var(--color-white);
 }
