@@ -33,8 +33,10 @@ body {
   top: 0;
   /* z-index: 5; */
 }
-#all-tags {
+#all-tags,
+#form-section {
   scroll-margin-top: 71px;
+  padding-bottom: 20px;
 }
 .main-nav {
   height: 70px;
@@ -198,9 +200,6 @@ img {
 }
 
 /* Form style */
-#form-section {
-  scroll-margin-top: 71px;
-}
 .form-section {
   padding-top: 20px;
 }
@@ -270,6 +269,11 @@ select {
 input[type='radio'] {
   margin: 0 8px 8px 0;
 }
+.radio {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 8px;
+}
 
 .submit-btn {
   padding: 15px 0;
@@ -285,10 +289,10 @@ input[type='radio'] {
   cursor: pointer;
 }
 
-fieldset {
+/* fieldset {
   margin-bottom: 10px;
   border: none;
-}
+} */
 
 label {
   display: block;
@@ -300,4 +304,5 @@ label.light {
 }
 #bio {
   resize: none;
+  height: 70px;
 }

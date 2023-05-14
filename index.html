@@ -245,14 +245,16 @@
                     <option value="ios">iOS App Development</option>
                   </optgroup>
                 </select>
-                <fieldset>
+                <!-- <fieldset> -->
                 <label>Gender:</label>
-                <input type="radio" id="male" value="male" name="gender"><label class="light" for="male">Male</label><br>
-                <input type="radio" id="female" value="female" name="gender"><label class="light" for="female">Female</label><br>
-                <input type="radio" id="others" value="others" name="gender"><label class="light" for="others">Others</label>
-              </fieldset>
+                <div class="radio"><input type="radio" id="male" value="male" name="gender"><label class="light" for="male">Male</label><br>
+                  <input type="radio" id="female" value="female" name="gender"><label class="light" for="female">Female</label><br>
+                  <input type="radio" id="others" value="others" name="gender"><label class="light" for="others">Others</label>
+                </div>
+                
+              <!-- </fieldset> -->
                 <label for="bio">Short Bio:</label>
-                <textarea id="bio" name="user_bio" rows="10"></textarea>
+                <textarea id="bio" name="user_bio"></textarea>
              
               <button type="submit" class="submit-btn">Sign Up</button>
               
